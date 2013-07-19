@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="p50013868c278635">
+    <InLine>
+      <AdSystem version="1.0">Spongecell</AdSystem>
+      <AdTitle>Spongecell In-stream</AdTitle>
+      <Description>An in-stream on the Spongecell ad system.</Description>
+      <Impression id="Spongecell">
+        http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&amp;type=IMPRESSION&amp;flight_id=12268&amp;creative_id=278635&amp;external_placement_id=SPONGECELL_PLACEMENT_ID&amp;anticache=SPONGECELL_CACHE_BUSTER&amp;e=mc2
+      </Impression>
+      <Creatives>
+        <Creative sequence="1">
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&amp;type=start&amp;flight_id=12268&amp;screen=Main+Video&amp;creative_id=278635&amp;external_placement_id=SPONGECELL_PLACEMENT_ID&amp;anticache=SPONGECELL_CACHE_BUSTER&amp;e=mc2]]></Tracking>
+              <Tracking event="start"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Started+Video&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Viewed+25%25&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Viewed+50%25&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Viewed+75%25&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Viewed+100%25&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=completion&flight_id=12268&screen=Main+Video&description=Viewed+100%25&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="mute"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Muted&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="unmute"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Unmuted&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="pause"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Paused&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="rewind"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Rewound&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="resume"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Resumed&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Entered+Full+Screen&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="expand"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Expanded&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="collapse"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Collapsed&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              <Tracking event="close"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=interaction&flight_id=12268&screen=Main+Video&description=Closed&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+            </TrackingEvents>
+            <AdParameters />
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://www.spongecell.com]]></ClickThrough>
+              <ClickTracking><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=click_through&flight_id=12268&screen=Main+Video&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></ClickTracking>
+              <CustomClick />
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" bitrate="320" height="360" duration="" id="278635" maintainAspectRatio="true" scalable="true" type="video/x-flv" width="640">http://cdn.statics.live.spongecell.com/certifications/instream/v4q/assets/Wrong.flv</MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative sequence="1">
+          <CompanionAds>
+            <Companion width="300" height="250">
+              <StaticResource creativeType="image/png"><![CDATA[http://cdn.statics.live.spongecell.com/certifications/instream/v4q/assets/Companion.png]]></StaticResource>
+              <TrackingEvents>
+                <Tracking event="creativeView"><![CDATA[http://analytics.spongecell.com/placements/50013868?ad_version=PLATFORM&type=start&flight_id=12268&screen=SpongecellCompanion&creative_id=278635&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              </TrackingEvents>
+              <CompanionClickThrough><![CDATA[http://spongecell.com/api/ad_tags/50013868/clickthrough?creative_id=278635&noflash=true&redirect=http%3A%2F%2Fwww.spongecell.com&action_type=interaction&description=Clicked+Companion+Ad&screen=SpongecellCompanion&external_placement_id=SPONGECELL_PLACEMENT_ID&external_site_id=SPONGECELL_SITE_ID&click_tag=SPONGECELL_CLICK_TAG]]></CompanionClickThrough>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions />
+    </InLine>
+  </Ad>
+</VAST>

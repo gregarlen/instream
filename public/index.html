@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>VAST &amp; VPAID Troubleshooting</title>
+  <script type="text/javascript" src="javascript/swfobject.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var swfUrl = "swf/VASTPlayer.swf?vast=";
+      var handleControlClick = function(event) {
+        if (event.target.id === 'stop') 
+          var player = document.getElementById('VASTPlayer');
+          if (player) { 
+            document.body.removeChild(player);
+            var div = document.createElement('div');
+            div.id = 'VASTPlayer';
+            document.body.appendChild(div);
+          }
+        else
+          swfobject.embedSWF( 'swf/VASTPlayer.swf?vast=xml/' + event.target.id + '.xml', 
+                              'VASTPlayer', "640", "360", "9.0.0");    
+      }
+      Array.prototype.forEach.call(document.getElementsByClassName('control'), function(i) {
+        i.addEventListener('click', handleControlClick)
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>VAST &amp; VPAID Troubleshooting</h1>
+  <div>
+    <button class='control' id='standard' />standard</button>
+    <button class='control' id='interactive'>interactive</button>
+    <button class='control' id="stop">stop!</button>
+  </div>
+  <div id="VASTPlayer">Press `standard` or `interactive`!</div>
+</body>
+</html>

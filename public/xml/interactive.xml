@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="p50013870c278638">
+    <InLine>
+      <AdSystem version="1.0">Spongecell</AdSystem>
+      <AdTitle>Spongecell In-stream</AdTitle>
+      <Description>An in-stream on the Spongecell ad system.</Description>
+      <Impression id="Spongecell">http://analytics.spongecell.com/placements/50013870?ad_version=PLATFORM&amp;type=IMPRESSION&amp;flight_id=12268&amp;creative_id=278638&amp;external_placement_id=SPONGECELL_PLACEMENT_ID&amp;anticache=SPONGECELL_CACHE_BUSTER&amp;e=mc2</Impression>
+      <Impression id="MainVideoStart">http://analytics.spongecell.com/placements/50013870?ad_version=PLATFORM&amp;type=start&amp;flight_id=12268&amp;screen=Main+Video&amp;creative_id=278638&amp;external_placement_id=SPONGECELL_PLACEMENT_ID&amp;anticache=SPONGECELL_CACHE_BUSTER&amp;e=mc2</Impression>
+      <Creatives>
+        <Creative sequence="1">
+          <Linear>
+            <Duration>00:00:29</Duration>
+            <TrackingEvents />
+            <AdParameters />
+            <MediaFiles>
+              <MediaFile apiFramework="VPAID" bitrate="320" delivery="progressive" height="360" id="278638" maintainAspectRatio="true" scalable="false" type="application/x-shockwave-flash" width="640">swf/InStreamGrid.swf</MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative sequence="1">
+          <CompanionAds>
+            <Companion width="300" height="250">
+              <StaticResource creativeType="image/png"><![CDATA[http://cdn.statics.live.spongecell.com/davis/ui/instream/bar/v4t/assets/Companion.png]]></StaticResource>
+              <TrackingEvents>
+                <Tracking event="creativeView"><![CDATA[http://analytics.spongecell.com/placements/50013870?ad_version=PLATFORM&type=start&flight_id=12268&screen=SpongecellCompanion&creative_id=278638&external_placement_id=SPONGECELL_PLACEMENT_ID&anticache=SPONGECELL_CACHE_BUSTER&e=mc2]]></Tracking>
+              </TrackingEvents>
+              <CompanionClickThrough><![CDATA[http://spongecell.com/api/ad_tags/50013870/clickthrough?creative_id=278638&noflash=true&redirect=http%3A%2F%2Fwww.spongecell.com&action_type=interaction&description=Clicked+Companion+Ad&screen=SpongecellCompanion&external_placement_id=SPONGECELL_PLACEMENT_ID&external_site_id=SPONGECELL_SITE_ID&click_tag=SPONGECELL_CLICK_TAG]]></CompanionClickThrough>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions />
+    </InLine>
+  </Ad>
+</VAST>
